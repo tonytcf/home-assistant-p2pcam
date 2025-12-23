@@ -1,0 +1,11 @@
+{
+  "domain": "p2pcam",
+  "name": "P2P Camera",
+  "version": "0.1.1",
+  "documentation": "https://github.com/indykoning/home-assistant-p2pcam",
+  "requirements": ["p2p-camera==0.2.3"],  // 根据实际依赖实际P2P库（需根据原仓库确认）
+  "config_flow": true,
+  "dependencies": [],
+  "codeowners": ["@yourusername"],
+  "iot_class": "local_push"
+}
