@@ -1,0 +1,7 @@
+{
+  "name": "P2P Camera Integration",
+  "content_in_root": false,
+  "domains": ["camera"],
+  "homeassistant": "2023.8.0",
+  "render_readme": true
+}
