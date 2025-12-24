@@ -1,0 +1,9 @@
+{
+  "domain": "p2pcam",
+  "name": "P2P Camera",
+  "documentation": "https://github.com/tonytcf/home-assistant-p2pcam",  # 替换为实际文档地址
+  "requirements": ["p2pcam==0.0.2", "opencv-python==4.0.0.21"],
+  "dependencies": [],
+  "codeowners": ["@tonytcf"],
+  "version": "1.0.0"
+}
