@@ -1,6 +1,7 @@
-"""P2P摄像头集成"""
-import logging
+"""P2P Camera Integration for Home Assistant."""
+from homeassistant.core import Config, HomeAssistant
+from homeassistant.helpers.typing import ConfigType
 
-_LOGGER = logging.getLogger(__name__)
-
-DOMAIN = "p2pcam"
+async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
+    """Set up the P2P Camera component."""
+    return True
